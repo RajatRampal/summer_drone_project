@@ -1,6 +1,6 @@
 # 🛸 Summer Drone Project (2025)
 
-This is my personal project for summer 2025 — building and programming an autonomous quadcopter from scratch as a first-year Mechanical Engineering student at UofT.
+This is my personal project for summer 2025 — building and programming a quadcopter from scratch as a first-year Mechanical Engineering student at UofT.
 
 ---
 
@@ -8,18 +8,16 @@ This is my personal project for summer 2025 — building and programming an auto
 
 - Build a stable, flyable quadcopter using pre-made components
 - Learn and implement PID-based flight control
-- Add sensors for altitude hold and obstacle detection
 - Learn basic CAD, embedded programming, and data logging
 
 ---
 
 ## 🧠 Skills Learned
 
-- CAD modeling and 3D printing
+- CAD modeling
 - Wiring, soldering, and circuit integration
 - Arduino/C++ programming
 - PID control + IMU data handling
-- Project documentation using GitHub
 
 ---
 
@@ -49,12 +47,7 @@ This is my personal project for summer 2025 — building and programming an auto
 
 ## 🛠️ Components Used (partial list)
 
-- STM32 / Arduino Nano / ESP32
-- MPU6050 IMU
-- BMP280 Barometer
-- 4x Brushless Motors + ESCs
-- 3D Printed Frame
-- 2S/3S LiPo Battery
+
 
 (Full list in [`BOM.md`](./BOM.md))
 
@@ -64,7 +57,6 @@ This is my personal project for summer 2025 — building and programming an auto
 
 1. PID tuning is a challenge — needs trial and error.
 2. Sensor noise needs filtering (especially IMU).
-3. GitHub is useful for documenting everything in one place.
 
 ---
 
